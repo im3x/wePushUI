@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>checkin_bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="5.3056106%" y2="97.7876503%" id="linearGradient-1">
+            <stop stop-color="#A0F2FA" offset="0%"></stop>
+            <stop stop-color="#1EA6B7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="114.121591%" y1="4.5869567%" x2="5.3056106%" y2="68.6670509%" id="linearGradient-2">
+            <stop stop-color="#FFD398" offset="0%"></stop>
+            <stop stop-color="#FD9811" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="110.825771%" y1="2.32978272%" x2="5.3056106%" y2="68.6670509%" id="linearGradient-3">
+            <stop stop-color="#FFD398" offset="0%"></stop>
+            <stop stop-color="#FD9811" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="119.737524%" y1="43.2506407%" x2="5.3056106%" y2="51.8342815%" id="linearGradient-4">
+            <stop stop-color="#FFD398" offset="0%"></stop>
+            <stop stop-color="#FD9811" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="checkin_bg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="500" height="500"></rect>
+        <circle id="椭圆形" fill="#FFFFFF" opacity="0.133765811" cx="384" cy="55" r="134"></circle>
+        <circle id="椭圆形" fill="#FFFFFF" opacity="0.133765811" cx="449" cy="218" r="134"></circle>
+        <g id="编组-2" transform="translate(83.000000, 139.000000)">
+            <g id="编组">
+                <polygon id="矩形" fill="url(#linearGradient-2)" points="0 19 72 19 72 64 0 64 18.9336495 41.5"></polygon>
+                <polygon id="矩形" fill="url(#linearGradient-3)" transform="translate(298.000000, 41.500000) scale(-1, 1) translate(-298.000000, -41.500000) " points="262 19 334 19 334 64 262 64 280.93365 41.5"></polygon>
+                <rect id="矩形" fill="url(#linearGradient-4)" x="45" y="0" width="245" height="48"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

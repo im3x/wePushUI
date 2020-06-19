@@ -1,0 +1,3 @@
+<view class="float" style="bottom:{{ bottom }}rpx;" wx:if="{{ show }}" hover-class="float-hover" bindtap="dingyueHandler">
+  <image src="../assets/sdk_floatbtn.svg"></image>
+</view>

@@ -1,0 +1,16 @@
+<!-- 引导订阅（仿微信读书 -->
+<view class="guide-bg" wx:if="{{ show }}" style="padding-top:{{ top }}">
+  <view>
+    <view class="number">
+      <text>1</text>
+    </view>
+    <text>勾选底部【总是保持以上选择】</text>
+  </view>
+  <view class="line"></view>
+  <view>
+    <view class="number">
+      <text>2</text>
+    </view>
+    <text>点击允许，即可接收后续更新通知</text>
+  </view>
+</view>

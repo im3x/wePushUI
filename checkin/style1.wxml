@@ -1,0 +1,21 @@
+<view class="box" wx:if="{{ show }}">
+  <view class="card">
+    <image src="../assets/checkin_bg.svg"></image>
+    <view class="title">
+      <text>{{ title }}</text>
+    </view>
+    <view class="date">
+      <text>{{ date }}</text>
+    </view>
+    <view class="qiandao" bindtap="qiandaoHandler" hover-class="btn-hover">
+      <view>
+        <view>
+          <text>{{ btnTxt }}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="close" bindtap="closeHandler">
+    <image src="../assets/close.svg"></image>
+  </view>
+</view>

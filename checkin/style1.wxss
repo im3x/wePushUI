@@ -1,0 +1,102 @@
+.box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9998;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box > .card {
+  z-index: 9999;
+  width: 80%;
+  height: 600rpx;
+  border-radius: 20px;
+  overflow: hidden;
+  background-image: linear-gradient(224deg, #A0F2FA 0%, #1EA6B7 100%);
+  position: relative;
+}
+.card > image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+}
+
+.box > .close {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.box > .close > image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.title {
+  height: 176rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title > text {
+  font-size: 50rpx;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 20rpx;
+}
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.date > text {
+  color: #FFF;
+  font-size: 30rpx;
+  font-weight: 300;
+}
+.qiandao {
+  padding: 100rpx 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qiandao > view {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qiandao > view > view {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(222deg, #FF8D8D 0%, #FF5252 100%);
+  box-shadow: 0 5px 10px -5px #FF5252;
+}
+.qiandao > view > view > text {
+  color: #FFF;
+  font-size: 40rpx;
+  letter-spacing: 12rpx;
+  font-weight: 400;
+}
+.btn-hover > view > view {
+  background-image: linear-gradient(222deg, #FF5252 0%, #FF8D8D 100%);
+}
